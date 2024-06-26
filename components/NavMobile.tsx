@@ -7,7 +7,7 @@ interface Props {
 }
 
 const NavMobile = ({closeNav, showNav}: Props) => {
-    const navOpenStyle = showNav?"translate-x-0":'tranlate-x-[-100%]'
+    const navOpenStyle = showNav?"translate-x-0":'translate-x-[-100%]'
   return (
     <div>
       <div className={`fixed top-0 ${navOpenStyle} transform transition-all duration-500 z-[10000] left-0 ring-0 bottom-0 bg-black opacity-70 w-[100vw] h-[100vh]`}></div>
@@ -29,7 +29,7 @@ const NavMobile = ({closeNav, showNav}: Props) => {
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#">Contact</a>
         </li>
-        <XMarkIcon onClick={closeNav} className="absolute top-[-1.4rem] rigth-[1.4rem] w-[2.2rem] h-[2.2rem] text-white" />
+        <XMarkIcon onClick={closeNav} className="absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white" />
       </ul>
     </div>
   );
