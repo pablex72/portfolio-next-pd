@@ -9,7 +9,7 @@ const HomePage = () => {
   const closeNavHandler = () => setShowNav(false);
 
   return (
-    <div className="overflow-hidden h-[2000px]">
+    <div className="overflow-hidden">
       <NavMobile showNav={showNav} closeNav={closeNavHandler} />
       <Nav openNav={showNavHandler} />
       <Hero />
