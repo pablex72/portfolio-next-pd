@@ -3,16 +3,14 @@ import NavMobile from "@/components/NavMobile";
 import React, { useState } from "react";
 
 const HomePage = () => {
-
-  const [showNav, setShowNav] = useState(false)
-  const showNavHandler  = () => setShowNav(true)
-  const closeNavHandler  = () => setShowNav(false)
- 
+  const [showNav, setShowNav] = useState(false);
+  const showNavHandler = () => setShowNav(true);
+  const closeNavHandler = () => setShowNav(false);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden h-[2000px]">
       <NavMobile showNav={showNav} closeNav={closeNavHandler} />
-      <Nav openNav={showNavHandler}/>
+      <Nav openNav={showNavHandler} />
     </div>
   );
 };
