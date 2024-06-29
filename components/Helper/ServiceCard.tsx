@@ -27,7 +27,16 @@ const ServiceCard = ({ num, title }: Props) => {
 
   return (
     <div className="bg-black custom__service z-[100] relative transform rounded-2xl text-center p-6 shadow-md">
-      ServiceCard
+      <IconComponent className="w-[5rem] relative z-[1] mx-auto h-[5rem] text-yellow-400" />
+      <h1 className="text-[25px] relative z-[1] text-white mt-[1rem]">
+        {title}
+      </h1>
+      <p className="text-white text-[15px] opacity-60 mt-[0.8rem]">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae beatae
+        aut obcaecati nostrum aspernatur necessitatibus similique non repellat
+        tempora harum.
+      </p>
+      <p className="text-white text-[1.6rem] font-bold absolute top-3 right-4">{num}</p>
     </div>
   );
 };

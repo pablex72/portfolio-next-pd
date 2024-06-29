@@ -14,6 +14,21 @@ const Services = () => {
         <div>
             <ServiceCard title="React Website" num="01"/>
         </div>
+        <div>
+            <ServiceCard title="Next Js Website" num="02"/>
+        </div>
+        <div>
+            <ServiceCard title="Fullstack Website" num="03"/>
+        </div>
+        <div>
+            <ServiceCard title="Node js Api" num="04"/>
+        </div>
+        <div>
+            <ServiceCard title="Express Js" num="05"/>
+        </div>
+        <div>
+            <ServiceCard title="Bug Fixing" num="06"/>
+        </div>
       </div>
     </div>
   );
