@@ -29,6 +29,47 @@ const Skills = () => {
                 percent="90%"
               />
             </div>
+            <div>
+              <SkillCard title="CSS" image="/images/css.svg" percent="97%" />
+            </div>
+            <div>
+              <SkillCard
+                title="JavaScript"
+                image="/images/js.svg"
+                percent="97%"
+              />
+            </div>
+            <div>
+              <SkillCard
+                title="TypeScript"
+                image="/images/ts.svg"
+                percent="67%"
+              />
+            </div>
+            <div>
+              <SkillCard title="HTML" image="/images/html.svg" percent="67%" />
+            </div>
+            <div>
+              <SkillCard
+                title="Node JS"
+                image="/images/node.svg"
+                percent="77%"
+              />
+            </div>
+            <div>
+              <SkillCard
+                title="MongoDB"
+                image="/images/mongo.svg"
+                percent="55%"
+              />
+            </div>
+            <div>
+              <SkillCard
+                title="Python"
+                image="/images/python.svg"
+                percent="85%"
+              />
+            </div>
           </div>
         </div>
       </div>
