@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
 import Services from "@/components/Services";
+import Skills from "@/components/Skills";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Hero />
       <AboutMe />
       <Services />
+      <Skills />
     </div>
   );
 };

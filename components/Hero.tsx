@@ -33,8 +33,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <Image src="/images/hero.png" alt="hero" width={600} height={600} className="object-contain"/>
-            </div>
+            <Image
+              src="/images/hero.png"
+              alt="hero"
+              width={600}
+              height={600}
+              className="object-contain"
+            />
+          </div>
         </div>
       </div>
     </div>
