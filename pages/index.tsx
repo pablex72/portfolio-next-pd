@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
 import Price from "@/components/Price";
 import Project from "@/components/Project";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import React, { useState } from "react";
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Skills />
       <Project />
       <Price />
+      <Reviews />
     </div>
   );
 };
