@@ -10,12 +10,24 @@ import Project from "@/components/Project";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomePage = () => {
   const [showNav, setShowNav] = useState(false);
   const showNavHandler = () => setShowNav(true);
   const closeNavHandler = () => setShowNav(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration:1000,
+      easing:'ease',
+      once: true,
+      anchorPlacement:"top-bottom"
+    });
+  }, []);
 
   return (
     <div className="overflow-hidden">
