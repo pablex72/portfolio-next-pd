@@ -36,7 +36,7 @@ To lint the code:
 npm run lint
 ```
 
-### _Dependencies
+### _Dependencies_
 This project utilizes several key dependencies. 
 * The [@heroicons/react] package provides a set of high-quality icons for React applications. 
 * The [aos library] is used for animating elements on scroll, offering an engaging user experience. 
