@@ -25,7 +25,9 @@ const ProjectCard = ({ image, title, tech1, tech2, tech3, tech4 }: Props) => {
         <p className="text-white opacity-65 text-[15px] mt-[1rem]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           numquam vel accusantium qui! Asperiores, ea perspiciatis! Eligendi,
-          repellat consequuntur aliquid aut excepturi sapiente porro? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit veniam rem, ad voluptate nostrum ab.
+          repellat consequuntur aliquid aut excepturi sapiente porro? Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Suscipit veniam
+          rem, ad voluptate nostrum ab.
         </p>
         <div className="mt-[1.3rem] grid-cols-2 grid sm:grid-cols-3 xl:grid-cols-4 gap-[2rem]">
           <h1 className="px-6 py-3 bg-blue-700 text-white rounded-lg text-center">
