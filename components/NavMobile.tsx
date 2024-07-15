@@ -8,19 +8,17 @@ interface Props {
 
 const NavMobile = ({ closeNav, showNav }: Props) => {
   const navOpenStyle = showNav ? "translate-x-0" : "translate-x-[-100%]";
-  
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as HTMLElement;
-      if (!target.closest('.nav-mobile') && showNav) {
+      if (!target.closest(".nav-mobile") && showNav) {
         closeNav();
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [showNav, closeNav]);
-  
-
 
   return (
     <div>
@@ -32,7 +30,7 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
       >
         <li>
           <a className="nav__link text-[25px] sm:text-[30px]" href="#home">
-            Home
+            Welcome
           </a>
         </li>
         <li>
@@ -46,8 +44,8 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
           </a>
         </li>
         <li>
-          <a className="nav__link text-[25px] sm:text-[30px]" href="#blog">
-            Blog
+          <a className="nav__link text-[25px] sm:text-[30px]" href="#project">
+            Projects
           </a>
         </li>
         <li>

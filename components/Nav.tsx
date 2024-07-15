@@ -32,7 +32,7 @@ const Nav = ({ openNav }: Props) => {
         <ul className="md:flex hidden items-center space-x-10">
           <li>
             <a className="nav__link" href="#home">
-              Home
+              Welcome
             </a>
           </li>
           <li>
@@ -46,8 +46,8 @@ const Nav = ({ openNav }: Props) => {
             </a>
           </li>
           <li>
-            <a className="nav__link" href="#blog">
-              Blog
+            <a className="nav__link" href="#project">
+              Projects
             </a>
           </li>
           <li>
