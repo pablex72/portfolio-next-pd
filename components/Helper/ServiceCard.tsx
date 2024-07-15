@@ -1,27 +1,29 @@
 import {
-  BugAntIcon,
+  DevicePhoneMobileIcon,
   CodeBracketIcon,
   CommandLineIcon,
   CursorArrowRaysIcon,
   RocketLaunchIcon,
   ServerIcon,
+  ComputerDesktopIcon,
 } from "@heroicons/react/16/solid";
 import React from "react";
 
 interface Props {
   title: string;
   num: string;
+  description: string;
 }
 const iconMapping = {
-  "01": CommandLineIcon,
+  "01": ComputerDesktopIcon,
   "02": ServerIcon,
   "03": CodeBracketIcon,
-  "04": CursorArrowRaysIcon,
+  "04": CommandLineIcon,
   "05": RocketLaunchIcon,
-  "06": BugAntIcon,
+  "06": DevicePhoneMobileIcon,
 };
 
-const ServiceCard = ({ num, title }: Props) => {
+const ServiceCard = ({ num, title, description }: Props) => {
   const IconComponent =
     (iconMapping as Record<string, React.ElementType>)[num] || CommandLineIcon;
 
@@ -32,11 +34,11 @@ const ServiceCard = ({ num, title }: Props) => {
         {title}
       </h1>
       <p className="text-white text-[15px] opacity-60 mt-[0.8rem]">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae beatae
-        aut obcaecati nostrum aspernatur necessitatibus similique non repellat
-        tempora harum.
+        {description}
       </p>
-      <p className="text-white text-[1.6rem] font-bold absolute top-3 right-4">{num}</p>
+      <p className="text-white text-[1.6rem] font-bold absolute top-3 right-4">
+        {num}
+      </p>
     </div>
   );
 };

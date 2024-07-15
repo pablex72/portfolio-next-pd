@@ -24,7 +24,7 @@ const PriceCard = ({ plane, price, save, bg }: Props) => {
       <div className="p-6">
         <div className="flex items-center space-x-3">
           <CheckIcon className="w-[1.4rem] h-[1.4rem] text-yellow-400" />
-          <p className="text-[17px] text-white opacity-80">Next JS Website</p>
+          <p className="text-[17px] text-white opacity-80">Spring Boot API</p>
         </div>
         <div className="flex items-center mt-[1rem] mb-[1rem] space-x-3">
           <CheckIcon className="w-[1.4rem] h-[1.4rem] text-yellow-400" />

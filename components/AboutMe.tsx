@@ -8,37 +8,29 @@ const AboutMe = () => {
         <div>
           <p className="heading__mini">About Me</p>
           <h1 className="heading__primary">
-            Professional <span className="text-yellow-400"></span> Website for
-            your bussiness
+            Development of professional
+            <span className="text-yellow-400"> websites</span>
           </h1>
           <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            aperiam error architecto debitis ipsam porro, veritatis accusantium.
-            Sequi accusantium fuga nihil voluptates libero cupiditate optio,
-            consequuntur adipisci aperiam recusandae modi veritatis temporibus
-            earum exercitationem minus.
+            Experience in full-stack development. Proficient in Java, Node.js,
+            JavaScript, and React, creation of dynamic and responsive web
+            applications. Backend expertise includes Spring Boot, JPA, and
+            database management with PostgreSQL and MySQL. I worked on diverse
+            projects, including e-commerce platforms, task management apps, and
+            interactive games, which showcases the skills in both frontend and
+            backend development, where high-quality code is further demonstrated
+            by his experience with TypeScript and various API integrations.
+            Likewise, I've used modern tools and frameworks such as Tailwind,
+            Material UI, Docker, and continuous integration.
+            <br />
+            Additionally, Mobile development, having created Android Kotlin apps
+            with Jetpack Compose and Flutter apps using Dart, including API
+            integrations for comprehensive functionality.
           </p>
-          <div className="mt-[2rem] space-y-3">
-            <div className="flex items-center space-x-4">
-              <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
-              <p className="text-[18px] text-white">Frontend Development</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
-              <p className="text-[18px] text-white">Backend Development</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
-              <p className="text-[18px] text-white">Web Development</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
-              <p className="text-[18px] text-white">Mobile App Development</p>
-            </div>
-          </div>
         </div>
         <div className="lg:ml-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-[2rem]">
+
             <div
               data-aos="zoom-in"
               data-aos-anchor-placement="top-center"
@@ -56,26 +48,26 @@ const AboutMe = () => {
               data-aos-delay="200"
               className="p-6 text-center bg-yellow-500"
             >
-              <p className="text-[50px] text-black font-bold">20+</p>
-              <p className="text-[20px] text-black font-600">Happy Client</p>
-            </div>
-            <div
-              data-aos="zoom-in"
-              data-aos-anchor-placement="top-center"
-              data-aos-delay="200"
-              className="p-6 text-center bg-yellow-500"
-            >
-              <p className="text-[50px] text-black font-bold">300+</p>
+              <p className="text-[50px] text-black font-bold">5+</p>
               <p className="text-[20px] text-black font-600">Project Done</p>
             </div>
-            <div
-              data-aos="zoom-in"
-              data-aos-anchor-placement="top-center"
-              data-aos-delay="200"
-              className="p-6 text-center bg-yellow-500"
-            >
-              <p className="text-[50px] text-black font-bold">3+</p>
-              <p className="text-[20px] text-black font-600">Award win</p>
+            <div className="mt-[2rem] space-y-3 flex flex-col justify-center ">
+              <div className="flex items-center space-x-4">
+                <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
+                <p className="text-[18px] text-white">Frontend Development</p>
+              </div>
+              <div className="flex items-center space-x-4">
+                <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
+                <p className="text-[18px] text-white">Backend Development</p>
+              </div>
+              <div className="flex items-center space-x-4">
+                <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
+                <p className="text-[18px] text-white">Web Development</p>
+              </div>
+              <div className="flex items-center space-x-4">
+                <CheckIcon className="w-[2rem] h-[2rem] text-yellow-400" />
+                <p className="text-[18px] text-white">Mobile App Development</p>
+              </div>
             </div>
           </div>
         </div>

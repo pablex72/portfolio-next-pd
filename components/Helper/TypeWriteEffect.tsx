@@ -12,13 +12,11 @@ const TypeWriteEffect = () => {
         1000,
         "Mobile Dev.",
         1000,
-        "Data Scienctist",
-        1000,
       ]}
       wrapper="span"
       speed={50}
-      className="xl:text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] text-white font-bold"
-            repeat={Infinity}
+      className="xl:text-[38px] lg:text-[36px] sm:text-[35px] text-[25px] text-white font-bold"
+      repeat={Infinity}
     />
   );
 };

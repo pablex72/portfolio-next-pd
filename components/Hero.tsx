@@ -22,17 +22,17 @@ const Hero = () => {
               data-aos-delay="400"
               className="flex flex-row"
             >
-              <div className="hidden md:block relative w-[140px] h-[110px]">
+              <div className="hidden md:block relative w-[140px] h-[110px] rounded-full">
                 <Image
                   src="/images/perfilOsc.png"
                   alt="hero"
                   layout="fill"
                   objectFit="cover"
-                  className="object-contain"
+                  className="object-contain rounded-full opacity-95"
                 />
               </div>
               <div>
-                <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[-35px] text-[25px] font-semibold leading-[2.6rem] text-white">
+                <h1 className="xl:text-[40px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white">
                   Hi, I&apos;m <span className="text-teal-600">Pablo Dev</span>
                 </h1>
                 <TypeWriteEffect />
