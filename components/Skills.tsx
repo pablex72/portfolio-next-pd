@@ -33,49 +33,49 @@ const Skills = () => {
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="40"
+              data-aos-delay="30"
             >
               <SkillCard title="JavaScript" image="/images/js.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="60"
+              data-aos-delay="40"
             >
               <SkillCard title="TypeScript" image="/images/ts.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="80"
+              data-aos-delay="50"
             >
               <SkillCard title="HTML" image="/images/html.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="100"
+              data-aos-delay="60"
             >
               <SkillCard title="Node JS" image="/images/node.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="120"
+              data-aos-delay="70"
             >
               <SkillCard title="Java" image="/images/java.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="140"
+              data-aos-delay="80"
             >
               <SkillCard title="Spring" image="/images/spring.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="160"
+              data-aos-delay="90"
             >
               <SkillCard title="Python" image="/images/python.svg" />
             </div>
@@ -83,7 +83,7 @@ const Skills = () => {
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="180"
+              data-aos-delay="100"
             >
               <SkillCard title="Dajngo" image="/images/django.svg" />
             </div>
@@ -91,14 +91,14 @@ const Skills = () => {
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="200"
+              data-aos-delay="110"
             >
               <SkillCard title="Kotlin" image="/images/kotlin.svg" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="220"
+              data-aos-delay="120"
             >
               <SkillCard title="Flutter" image="/images/flutter.svg" />
             </div>

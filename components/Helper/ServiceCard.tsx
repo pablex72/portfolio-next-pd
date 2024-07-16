@@ -17,10 +17,10 @@ interface Props {
 const iconMapping = {
   "01": ComputerDesktopIcon,
   "02": ServerIcon,
-  "03": CodeBracketIcon,
-  "04": CommandLineIcon,
-  "05": RocketLaunchIcon,
-  "06": DevicePhoneMobileIcon,
+  "03": CommandLineIcon,
+  "04": RocketLaunchIcon,
+  "05": DevicePhoneMobileIcon,
+  "06": CodeBracketIcon,
 };
 
 const ServiceCard = ({ num, title, description }: Props) => {
