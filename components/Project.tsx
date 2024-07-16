@@ -149,7 +149,7 @@ const Project = () => {
           <div className="mt-[1.3rem] sm:grid-cols-3 grid gap-[1rem]">
             <div className="flex justify-center">
               <a
-                href={"https://github.com/pablex72/notes-reminder-backend"}
+                href={"https://github.com/pablex72/notes-reminder-dep"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
