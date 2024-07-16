@@ -29,7 +29,7 @@ const Footer = () => {
         </p>
         <div
           data-aos="zoom-in"
-          data-aos-delay="1600"
+          data-aos-delay="100"
           className="h-[45px] w-[80%] flex flex-row justify-center gap-10"
         >
           <a

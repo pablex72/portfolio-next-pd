@@ -37,7 +37,7 @@ const AboutMe = () => {
             <div
               data-aos="zoom-in"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="200"
+              data-aos-delay="35"
               className="p-6 text-center bg-yellow-500"
             >
               <p className="text-[50px] text-black font-bold">2</p>
@@ -48,7 +48,7 @@ const AboutMe = () => {
             <div
               data-aos="zoom-in"
               data-aos-anchor-placement="top-center"
-              data-aos-delay="200"
+              data-aos-delay="70"
               className="p-6 text-center bg-yellow-500"
             >
               <p className="text-[50px] text-black font-bold">5+</p>

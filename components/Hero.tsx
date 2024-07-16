@@ -19,7 +19,7 @@ const Hero = () => {
             </h1>
             <div
               data-aos="fade-left"
-              data-aos-delay="400"
+              data-aos-delay="35"
               className="flex flex-row"
             >
               <div className="hidden md:block relative w-[140px] h-[110px] rounded-full">
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
             <p
               data-aos="fade-up"
-              data-aos-delay="800"
+              data-aos-delay="70"
               className="mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]"
             >
               I am a self-taught web programmer passionate about programming. I
@@ -48,11 +48,11 @@ const Hero = () => {
               looking to improve my skills and keep up to date with the latest
               technologies and trends in web development.
             </p>
-            <div className="mt-[2rem] flex items-center space-x-2">
+            <div className="mt-[2rem] flex items-center space-x-7">
               <a href="mailto:tonyp2hoy@gmail.com">
                 <button
                   data-aos="zoom-in"
-                  data-aos-delay="1200"
+                  data-aos-delay="105"
                   className="relative flex h-[50px] w-40 items-center justify-center font-semibold overflow-hidden bg-red-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-600 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
                 >
                   <span className="relative z-10 flex items-center">
@@ -61,7 +61,7 @@ const Hero = () => {
                   </span>
                 </button>
               </a>
-              <a href="">
+              {/* <a href="">
                 <button
                   data-aos="zoom-out"
                   data-aos-delay="1600"
@@ -69,11 +69,11 @@ const Hero = () => {
                 >
                   <span className="relative z-10">Download CV</span>
                 </button>
-              </a>
+              </a> */}
               <div
                 data-aos="zoom-in"
-                data-aos-delay="1600"
-                className="h-[45px] w-[110px] flex flex-row justify-between"
+                data-aos-delay="145"
+                className=" ml-50 h-[45px] w-[110px] flex flex-row justify-between"
               >
                 <a
                   href="https://github.com/pablex72"
@@ -94,7 +94,7 @@ const Hero = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-delay="2000"
+            data-aos-delay="175"
             className="flex flex-row items-center"
           >
             <div className="hidden md:block w-[650px] h-[350px] relative items-center">
