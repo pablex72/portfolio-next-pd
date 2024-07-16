@@ -48,7 +48,7 @@ const Hero = () => {
               looking to improve my skills and keep up to date with the latest
               technologies and trends in web development.
             </p>
-            <div className="mt-[2rem] flex items-center space-x-6">
+            <div className="mt-[2rem] flex items-center space-x-2">
               <a href="mailto:tonyp2hoy@gmail.com">
                 <button
                   data-aos="zoom-in"
@@ -65,7 +65,7 @@ const Hero = () => {
                 <button
                   data-aos="zoom-out"
                   data-aos-delay="1600"
-                  className="before:ease relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
+                  className="before:ease relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-20 before:w-20 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
                 >
                   <span className="relative z-10">Download CV</span>
                 </button>

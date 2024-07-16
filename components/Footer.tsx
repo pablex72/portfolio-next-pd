@@ -17,10 +17,10 @@ const Footer = () => {
           src={"/images/icono-blanco.svg"}
           alt="footer-icono"
         />
-        <p className="text-[14px] mt-[0.5rem] px-[200px] flex flex-row items-center justify-center text-center text-white opacity-70">
+        <p className="text-[14px] mt-[0.5rem] sm:px-[200px] flex flex-row items-center justify-center text-center text-white opacity-70">
           I am constantly learning and developing web applications, always
-          pushing the boundaries of what's possible. Let's collaborate and
-          create something amazing together. Reach out, and let's start a
+          pushing the boundaries of what&apos;s possible. Let&apos;s collaborate and
+          create something amazing together. Reach out, and let&apos;s start a
           project!
           <br />
           <br />

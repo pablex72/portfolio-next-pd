@@ -11,7 +11,7 @@ const AboutMe = () => {
             Development of professional
             <span className="text-yellow-400"> websites</span>
           </h1>
-          <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
+          <p className="text-[15px] mt-[1.3rem] text-white opacity-75 text-balance">
             Experience in full-stack development. Proficient in Java, Node.js,
             JavaScript, and React, creation of dynamic and responsive web
             applications. Backend expertise includes Spring Boot, JPA, and
@@ -20,7 +20,10 @@ const AboutMe = () => {
             interactive games, which showcases the skills in both frontend and
             backend development, where high-quality code is further demonstrated
             by his experience with TypeScript and various API integrations.
-            Likewise, I've used modern tools and frameworks such as Tailwind,
+            <br />
+            <br />
+
+            Likewise, I&apos;ve used modern tools and frameworks such as Tailwind,
             Material UI, Docker, and continuous integration.
             <br />
             Additionally, Mobile development, having created Android Kotlin apps

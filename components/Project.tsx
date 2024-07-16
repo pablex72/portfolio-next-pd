@@ -140,7 +140,7 @@ const Project = () => {
           <div className="flex space-x-2 justify-center pt-4">
             <span className="font-bold text-white">{"React"}</span>
             <span className="text-white">|</span>
-            <span className="font-bold  text-white">{"Java Spring Boot"}</span>
+            <span className="font-bold  text-white">{"Spring"}</span>
             <span className="text-white">|</span>
             <span className="font-bold  text-white">{"Postgres"}</span>
             <span className="text-white">|</span>
@@ -258,7 +258,7 @@ const Project = () => {
             <span className="font-bold  text-white">{"Flutter"}</span>
             <span className="text-white">|</span>
             <span className="font-bold  text-white">
-              {"Shared Preferences"}
+              {"Shared Pref."}
             </span>
             <span className="text-white">|</span>
             <span className="font-bold  text-white">{"Bloc"}</span>

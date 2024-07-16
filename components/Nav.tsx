@@ -1,4 +1,5 @@
 import { Bars3BottomLeftIcon } from "@heroicons/react/16/solid";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 interface Props {
@@ -25,10 +26,17 @@ const Nav = ({ openNav }: Props) => {
       className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}
     >
       <div className="flex items-center h-[12vh] justify-between  w-[80%] mx-auto">
-        <div className="font-logo text-white text-[18px]">
-          <span className="text-[30px] md:text-[40px] text-yellow-400">pd</span>
-          Pablo-Dev
-        </div>
+        <a href="#home">
+          <div className="font-logo flex flex-row justify-center items-center text-white text-[18px] gap-5">
+            <Image
+              width={50}
+              height={50}
+              src={"/images/logo.png"}
+              alt="footer-icono"
+            />
+            Pablo - Dev
+          </div>
+        </a>
         <ul className="md:flex hidden items-center space-x-10">
           <li>
             <a className="nav__link" href="#home">
